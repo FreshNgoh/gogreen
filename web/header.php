@@ -77,7 +77,6 @@ include './php/dbConn.php';
         <div class="form-container sign-in-container">
           <form class="login-form" action="./php/signIn.php" method="post">
             <h1>Sign in</h1>
-            <span>or use your account</span>
             <input type="email" placeholder="Email" name="signInEmail" />
             <input type="password" placeholder="Password" name="signInPassword" />
             <button type="submit" value="signIn" name="signInBtn">
